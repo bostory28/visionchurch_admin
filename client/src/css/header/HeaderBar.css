@@ -1,0 +1,79 @@
+a {
+    color: #888888;
+  }
+a:hover {
+    text-decoration: none;
+    color: #888888;
+}
+._signin-link-border:hover, ._register-link-border:hover {
+    background: #3CC47C;
+}
+.column-none {
+    flex-direction: row;
+}
+.border-nav {
+    border: 1px solid #e9ecef;
+}
+._logo span {
+    font-weight: bold;
+}
+._logo span, ._logo span small {
+    display: block;
+    line-height: 1rem;
+    text-align: center;
+}
+span small {
+    font-variant:small-caps;
+}
+
+/* member icon */
+._member-area {
+    text-align: right;
+}
+._signin-link-border, ._register-link-border {
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #59CD90;
+    text-align: center;
+    width: 5rem;
+    height: 3rem;
+}
+._signin-link-border > i + span {
+    display: block;
+    line-height: 0.6rem;
+    color: white;
+}
+._register-link, ._signin-link {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: middle
+}
+._register-link-border > i + span {
+    display: block;
+    line-height: 0.6rem;
+    color: white;
+}
+._register-link-border > span {
+    font-size: 0.6rem
+}
+._signin-link-border > span {
+    font-size: 0.6rem
+}
+._signin-link-border > i, ._register-link-border > i {
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* nav display */
+.navbar-toggler {
+    border: 0px solid transparent;
+}
+._nav-display {
+    margin-left: 1.1rem;
+}
+._nav-ul {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
